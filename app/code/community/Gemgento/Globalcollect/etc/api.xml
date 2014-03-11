@@ -1,0 +1,34 @@
+<config>
+    <api>
+        <resources>
+            <globalcollect translate="title" module="globalcollect">
+                <title>Global Collect</title>
+                <model>Gemgento_Globalcollect_Model_Api</model>
+                <acl>gemgento/globalcollect</acl>
+                <methods>
+                    <tokens translate="title" module="globalcollect">
+                        <title>Get saved credit card tokens</title>
+                        <acl>gemgento/globalcollect</acl>
+                    </tokens>
+                </methods>
+            </globalcollect>
+        </resources>
+        <v2>
+            <resources_function_prefix>
+                <globalcollect>globalcollect</globalcollect>
+            </resources_function_prefix>
+        </v2>
+        <acl> Access Control Results to our resources, this tree structure is displayed in "Resource Roles" panel when you open role to edit 
+            <resources>
+                <gemgento translate="title" module="globalcollect">
+                    <title>Gemgento</title>
+                    <globalcollect translate="title" module="globalcollect">
+                        <title>Global Collect - Token Retrieval</title>
+                    </globalcollect>
+                </gemgento>
+                <all>
+                </all>
+            </resources>
+        </acl>
+    </api>
+</config>

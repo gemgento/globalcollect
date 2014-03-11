@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+         <Gemgento_Globalcollect>
+            <version>0.0.1</version>
+        </Gemgento_Globalcollect>
+    </modules>
+    <global>
+        <models>
+            <globalcollect>
+                <class>Gemgento_Globalcollect_Model</class>
+                
+                <rewrite>
+                    <api>Gemgento_Globalcollect_Model_Api</api>
+                    <method_abstract>Gemgento_Globalcollect_Model_Method_Abstract</method_abstract>
+                </rewrite>
+            </globalcollect>
+        </models>
+   </global>
+</config>

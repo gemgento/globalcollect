@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Gemgento_Globalcollect>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Gemgento_Globalcollect>
+    </modules>
+</config>
