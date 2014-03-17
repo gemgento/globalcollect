@@ -3,7 +3,7 @@
         <resources>
             <globalcollect translate="title" module="globalcollect">
                 <title>Global Collect</title>
-                <model>Gemgento_Globalcollect_Model_Api</model>
+                <model>Gemgento_Globalcollect_Globalcollect_Model_Api</model>
                 <acl>gemgento/globalcollect</acl>
                 <methods>
                     <tokens translate="title" module="globalcollect">

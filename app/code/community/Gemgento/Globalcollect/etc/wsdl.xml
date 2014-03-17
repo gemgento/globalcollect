@@ -23,6 +23,11 @@
                     </restriction>
                 </complexContent>
             </complexType>
+            <complexType name="shoppingCartPaymentMethodEntity">
+                <all>
+                    <element name="save_cc_data" type="xsd:boolean" minOccurs="0"/>
+                </all>
+            </complexType>
         </schema>
     </types>
     <message name="globalcollectTokensRequest">

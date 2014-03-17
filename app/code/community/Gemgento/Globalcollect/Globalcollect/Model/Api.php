@@ -1,14 +1,43 @@
 <?php
 /**
- * @package     Gemgento_Globalcollect
- * @copyright   Copyright © 2014 Gemgento LLC
+ * Disclaimer
+ * All trademarks, service marks and trade names referenced in this material
+ * are the property of their respective owners This software is not intended
+ * to be a complete solution of all applicable rules, policies and procedures.
+ * The matters referenced are subject to change from time to time, and
+ * individual circumstances may vary. Global Collect Services B.V. shall not
+ * be responsible for any inaccurate or incomplete coding.
+ *
+ * Global Collect Services B.V. has given extensive attention to the quality
+ * of the software but makes no warranties or representations about the accuracy
+ * or completeness of it. Neither Global Collect Services B.V. nor any of its
+ * affiliates shall be liable for any costs, losses and/or damages arising out
+ * of access to or use of this software. Because of the complexity of the process
+ * and the right of Banks to alter conditions, this software can only serve
+ * as a quick-start in development is subject to further modifications.
+ *
+ * The Magento extension was developed as a generic solution.
+ * In the event that the cartridge is modified by a user in any way,
+ * Global Collect Services B.V. shall not be responsible for any damages that
+ * are caused by the modified extension. Global Collect Services B.V. makes
+ * no warranties or representations about the use or operation of the extension.
+ * Neither Global Collect Services B.V. nor any of its affiliates shall be
+ * liable for any costs, losses and/or damages arising out of access to
+ * or use of the extension.
+ *
+ * Suggestions
+ * Suggestions regarding the extension are welcome and may be forwarded to
+ * global.partnerships@globalcollect.com
+ *
+ * @package     Smile_Globalcollect
+ * @copyright   Copyright © 2012 Global Collect Services B.V.
  */
 
 /**
  * Global Collect payment module API
  *
  */
-class Gemgento_Globalcollect_Model_Api extends Smile_Globalcollect_Model_Api
+class Gemgento_Globalcollect_Globalcollect_Model_Api extends Smile_Globalcollect_Model_Api
 {
     
     /**

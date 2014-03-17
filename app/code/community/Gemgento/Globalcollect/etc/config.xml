@@ -8,13 +8,18 @@
     <global>
         <models>
             <globalcollect>
-                <class>Gemgento_Globalcollect_Model</class>
-                
                 <rewrite>
-                    <api>Gemgento_Globalcollect_Model_Api</api>
-                    <method_abstract>Gemgento_Globalcollect_Model_Method_Abstract</method_abstract>
+                    <api>Gemgento_Globalcollect_Globalcollect_Model_Api</api>
                 </rewrite>
             </globalcollect>
+            <checkout>
+                <rewrite>
+                    <cart_api>Gemgento_Globalcollect_Checkout_Model_Cart_Api</cart_api>
+                    <cart_api_v2>Gemgento_Globalcollect_Checkout_Model_Cart_Api_V2</cart_api_v2>
+                    <cart_payment_api>Gemgento_Globalcollect_Checkout_Model_Cart_Payment_Api</cart_payment_api>
+                    <cart_payment_api_v2>Gemgento_Globalcollect_Checkout_Model_Cart_Payment_Api_V2</cart_payment_api_v2>
+                </rewrite>
+            </checkout>
         </models>
    </global>
 </config>

@@ -3,6 +3,10 @@
         <Gemgento_Globalcollect>
             <active>true</active>
             <codePool>community</codePool>
+            <depends>
+                <Smile_Globalcollect/>
+                <Gemgento_Checkout/>
+            </depends>
         </Gemgento_Globalcollect>
     </modules>
 </config>
