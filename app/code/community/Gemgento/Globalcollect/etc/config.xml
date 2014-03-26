@@ -10,6 +10,7 @@
             <globalcollect>
                 <rewrite>
                     <api>Gemgento_Globalcollect_Globalcollect_Model_Api</api>
+                    <observer>Gemgento_Globalcollect_Globalcollect_Model_Observer</observer>
                 </rewrite>
             </globalcollect>
             <checkout>
@@ -21,5 +22,16 @@
                 </rewrite>
             </checkout>
         </models>
+        
+        <events>
+            <sales_order_shipment_save_afte>
+                <observers>
+                    <globalcollect>
+                        <class>Gemgento_Globalcollect_Globalcollect_Model_Observer</class>
+                        <method>settlePayment</method>
+                    </globalcollect>
+                </observers>
+            </sales_order_shipment_save_afte>
+        </events>
    </global>
 </config>
