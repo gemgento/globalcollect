@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <modules>
-         <Gemgento_Globalcollect>
+        <Gemgento_Globalcollect>
             <version>0.0.1</version>
         </Gemgento_Globalcollect>
     </modules>
@@ -24,14 +24,15 @@
         </models>
         
         <events>
-            <sales_order_shipment_save_afte>
+            <sales_order_shipment_save_after>
                 <observers>
                     <globalcollect>
+                        <type>singleton</type>
                         <class>Gemgento_Globalcollect_Globalcollect_Model_Observer</class>
                         <method>settlePayment</method>
                     </globalcollect>
                 </observers>
-            </sales_order_shipment_save_afte>
+            </sales_order_shipment_save_after>
         </events>
-   </global>
+    </global>
 </config>
