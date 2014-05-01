@@ -153,11 +153,7 @@ class Gemgento_Globalcollect_Globalcollect_Model_Api extends Smile_Globalcollect
             }
 
             if ($sourceObject->getDiscountAmount()) {
-                if ($this->getSource()->getDiscountDescription()) {
-                    $discountLabel = $this->helper('globalcollect')->__('Discount (%s)', $this->getSource()->getDiscountDescription());
-                } else {
-                    $discountLabel = $this->helper('globalcollect')->__('Discount');
-                }
+                $discountLabel = 'Discount';
                 $node = $this->_addNode($request, 'PARAMS/ORDERLINES/ORDERLINE');
                 $node->LINENUMBER = ++$i;
                 $node->INVOICELINEDATA = $discountLabel;
